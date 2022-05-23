@@ -11,7 +11,7 @@ function index() {
     <div>
       <TopbarIndex />
       <Navbar />
-    <div className={styles.container}>
+    <div id="#top" className={styles.container}>
      <div className={styles.boxContainer}>
        <div className={styles.box1}>
        <div className={styles.left}>
@@ -108,7 +108,7 @@ function index() {
       <Image className={styles.basketImage} src="/images/jobs.jpg" width={50} height={50} alt="contact image" /><br></br>
       </div>
       <div className={styles.gotop}>
-        <Image id={styles.basketImage} src="/images/top.jpg" width={50} height={50} alt="contact image" /><br></br>
+        <a href="#top"><Image id={styles.basketImage} src="/images/top.jpg" width={50} height={50} alt="contact image" /></a><br></br>
       </div>
     </div>
     <Bottom />
