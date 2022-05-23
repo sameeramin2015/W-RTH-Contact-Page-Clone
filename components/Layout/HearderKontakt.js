@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from "../../styles/HearderKontakt.module.css";
 import Image from 'next/image';
+import {BsArrowRightShort} from "react-icons/bs"
 
 function HearderKontakt() {
   return (
@@ -9,7 +10,7 @@ function HearderKontakt() {
        <Image src="/images/header1920x524.jpg" width={1920} height={524} alt="contact image" />
     </div>
     <div className={styles.links}>
-     Startseite  `&quot;` Kontakt
+     Startseite <BsArrowRightShort /> Kontakt
     </div>
     <div className={styles.title}>
     IHR KONTAKT ZU WÜRTH
@@ -30,14 +31,14 @@ function HearderKontakt() {
       </div>
       <div className={styles.box}>
       <span className={styles.paraghraph}><span className={styles.red}>Produkt- und Anwendungsberatung<br></br></span>Sie haben spezifische Fragen zu unseren Produkten und deren Anwendung? Sie erreichen unsere Spezialisten der Produkt- und Anwendungsberatung unter +49 794015-2552.<br></br><br></br> Durch Eingabe der entsprechenden Durchwahl erreichen Sie direkt den richtigen Ansprechpartner in Ihrem gewünschten Beratungsbereich.<br></br><br></br>
-        <span className={styles.span}>  `&quot;` 1 - Brandschutz und Haustechnik <br></br></span>
-        <span className={styles.span}>  `&quot;` 2 - Bautechnik <br></br></span>
-        <span className={styles.span}>  `&quot;` 3 - Fahrzeugtechnik, Werkstattsysteme, Handwerkzeuge <br></br></span>
-        <span className={styles.span}>  `&quot;` 4 - Maschinen, Messtechnik, mechanische Materialbearbeitung <br></br></span>
-        <span className={styles.span}>  `&quot;` 5 - Chemieprodukte<br></br></span>
-        <span className={styles.span}>  `&quot;` 6 - Normteile <br></br> </span>
-        <span className={styles.span}>  `&quot;` 7 - Arbeitsschutz<br></br></span>
-        <span className={styles.span}>  `&quot;` 8 - Beschläge </span>
+        <span className={styles.span}> <BsArrowRightShort /> 1 - Brandschutz und Haustechnik <br></br></span>
+        <span className={styles.span}> <BsArrowRightShort /> 2 - Bautechnik <br></br></span>
+        <span className={styles.span}> <BsArrowRightShort /> 3 - Fahrzeugtechnik, Werkstattsysteme, Handwerkzeuge <br></br></span>
+        <span className={styles.span}> <BsArrowRightShort /> 4 - Maschinen, Messtechnik, mechanische Materialbearbeitung <br></br></span>
+        <span className={styles.span}> <BsArrowRightShort /> 5 - Chemieprodukte<br></br></span>
+        <span className={styles.span}> <BsArrowRightShort /> 6 - Normteile <br></br> </span>
+        <span className={styles.span}> <BsArrowRightShort /> 7 - Arbeitsschutz<br></br></span>
+        <span className={styles.span}> <BsArrowRightShort /> 8 - Beschläge </span>
 
       </span>
       </div>
@@ -66,7 +67,7 @@ function HearderKontakt() {
       </div>
       <div className={styles.box}>
       <span className={styles.paraghraph}><span className={styles.red}>Würth Niederlassungen<br></br></span>Nah. Näher. Würth! Mit über 550 Niederlassungen deutschlandweit ist Würth der Partner ganz in Ihrer Nähe. Sie finden in unseren Niederlassungen in der Regel rund 5.000 Artikel für Ihren Sofortbedarf.<br></br><br></br>Einkauf, Sofort-Lieferservice, Click & Collect - nutzen Sie die vielen Vorteile unseres dichten Niederlassungsnetzes. Besuchen Sie uns während unserer Geschäftszeiten von 7 - 17 Uhr und überzeugen Sie sich vor Ort von Qualität made by Würth.<br></br><br></br>
-      <button className={styles.button1}> `&quot;` HIER FINDEN SIE NACHSTE NIDERLASSUNG</button>
+      <button className={styles.button1}><BsArrowRightShort /> HIER FINDEN SIE NACHSTE NIDERLASSUNG</button>
       </span>
       </div>
     
@@ -93,8 +94,8 @@ function HearderKontakt() {
         </div>
       </div>
     
-    <button className={styles.button1}> `&quot;` Anfahrtsweg zur Adolf Würth GmbH &amp; Co. KG</button><br></br>
-    <button className={styles.button1}> `&quot;` Detailskizze für Besucher der Adolf Würth GmbH &amp; Co. KG</button>
+    <button className={styles.button1}><BsArrowRightShort /> Anfahrtsweg zur Adolf Würth GmbH &amp; Co. KG</button><br></br>
+    <button className={styles.button1}><BsArrowRightShort /> Detailskizze für Besucher der Adolf Würth GmbH &amp; Co. KG</button>
     </span>
     
       </div>
