@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkgray;
+    height: 100px;
+
+}
+.left {
+    text-align: left;
+    margin-left: 200px;
+}
+.right {
+    text-align: right;
+    margin-right: 200px;
+}
+@media screen and (max-width: 760px){
+    .box{
+        width: 40%;
+    }
+   
+}
+@media screen and (max-width: 600px){
+    .box{
+        width: 90%;
+    }
+    .footer{
+        display: none;
+    }
+}

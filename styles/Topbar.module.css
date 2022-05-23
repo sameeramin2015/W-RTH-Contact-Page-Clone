@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+    margin-right: 200px;
+}
+.links{
+    margin-left: 13%;
+    font-size: 13px;
+} 
+ .iconcolor{
+    color: red;
+    font-size: 25px;
+}
+.search {
+    width: 100%;
+    margin-left: 20px;
+}
+.searchIcon{
+    margin-right: 20px;
+}
+.basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.baskettext{
+    margin: 10px;
+}
+.lang{
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: 0px;
+}
+@media screen and (max-width: 760px){
+    
+}
+@media screen and (max-width: 600px){
+  .lang{
+      display: none;
+  }
+}
