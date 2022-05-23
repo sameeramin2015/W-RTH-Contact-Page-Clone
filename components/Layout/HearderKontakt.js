@@ -53,7 +53,7 @@ function HearderKontakt() {
       <Image src="/images/50-berufserfahrene-13_res_wl2_frontpage_1200.jpg" width={600} height={400} alt="contact image" />
       </div>
       <div className={styles.box}>
-      <span className={styles.paraghraph}><span className={styles.red}>Immer für Sie da unsere Beraterinnen und Berater im Außendienst<br></br></span>Als persönliche Ansprechpartner sind unsere Beraterinnen und Berater Ihr direkter Kontakt zu Würth und in der Regel auch Ihre erste Anlaufstelle für Fragen. Sie verstehen Ihre geschäftlichen Herausforderungen und beraten Sie umfassend zu unseren Produkten Services und Systemen. Die Kontaktdaten Ihres Würth Beraters finden Sie im Online-Shop im Bereich "Mein Würth" nachdem Sie sich angemeldet haben.<br></br><br></br><strong> Sie haben noch keinen im Online-Shop Zugang?</strong> Gern richten wir Ihnen und Ihren Mitarbeitenden kostenfrei persönliche Zugänge ein - einfach hier registrieren.</span>
+      <span className={styles.paraghraph}><span className={styles.red}>Immer für Sie da unsere Beraterinnen und Berater im Außendienst<br></br></span>Als persönliche Ansprechpartner sind unsere Beraterinnen und Berater Ihr direkter Kontakt zu Würth und in der Regel auch Ihre erste Anlaufstelle für Fragen. Sie verstehen Ihre geschäftlichen Herausforderungen und beraten Sie umfassend zu unseren Produkten Services und Systemen. Die Kontaktdaten Ihres Würth Beraters finden Sie im Online-Shop im Bereich Mein Würth nachdem Sie sich angemeldet haben.<br></br><br></br><strong> Sie haben noch keinen im Online-Shop Zugang?</strong> Gern richten wir Ihnen und Ihren Mitarbeitenden kostenfrei persönliche Zugänge ein - einfach hier registrieren.</span>
 
       </div>
 
