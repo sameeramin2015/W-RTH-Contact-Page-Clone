@@ -5,7 +5,7 @@ import {AiOutlineMail} from "react-icons/ai";
 import Navbar from '../components/Layout/Navbar';
 import Bottom from '../components/Layout/Bottom';
 import TopbarIndex from '../components/Layout/TopbarIndex';
-
+import {BsArrowRightShort} from "react-icons/bs"
 function index() {
   return (
     <div>
