@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Image from "next/image";
 import styles from "../../styles/Topbar.module.css"
 import {FiShoppingCart} from 'react-icons/fi';

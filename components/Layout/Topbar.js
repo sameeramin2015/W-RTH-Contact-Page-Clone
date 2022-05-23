@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Image from "next/image";
 import styles from "../../styles/Topbar.module.css"
 import {FiShoppingCart} from 'react-icons/fi';
@@ -10,9 +10,9 @@ function Topbar() {
     <div className={styles.links}>
     Willkommen bei Würth Deutschland | <a href="#" alt="top link">Nur für Gewerbetreibende </a>
     <div className={styles.lang}>
-    <select class="selectpicker" data-width="fit">
-    <option data-content='<span class="flag-icon flag-icon-nl"></span> Nederlands'>Nederlands</option>
-    <option  data-content='<span class="flag-icon flag-icon-fr"></span> Français'>Français</option>
+    <select className="selectpicker" data-width="fit">
+    <option data-content='<span className="flag-icon flag-icon-nl"></span> Nederlands'>Nederlands</option>
+    <option  data-content='<span className="flag-icon flag-icon-fr"></span> Français'>Français</option>
     </select>
     </div>
   

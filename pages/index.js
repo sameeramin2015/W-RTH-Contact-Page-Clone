@@ -18,35 +18,35 @@ function index() {
       <nav className={styles.nav}>
         <ul className={styles.ul}>
           <p>
-        <a className={styles.a1} href="#">Home &gt; </a>
-        <a className={styles.a1} href="#">Würth &gt; </a>
-        <a className={styles.a1} href="#">Contact &gt; </a>
+        <a className={styles.a1} href="#">Home `&gt;` </a>
+        <a className={styles.a1} href="#">Würth `&gt;` </a>
+        <a className={styles.a1} href="#">Contact `&gt;`</a>
         </p>
           <h5 className={styles.h5}>Contact</h5>
         
-          <li id={styles.idli} className={styles.dropdown}><a className={styles.a} href="#"> &gt; Bedrijf<span className={styles.span}></span></a>
+          <li id={styles.idli} className={styles.dropdown}><a className={styles.a} href="#"> `&gt;` Bedrijf<span className={styles.span}></span></a>
             <ul className={styles.sbul}>
             <h5 className={styles.h5}>Würth Belux </h5>
-            <li className={styles.li}><a className={styles.a} href="#"> &gt; Missie, visie & waarden</a></li>
-            <li className={styles.li}><a className={styles.a} href="#"> &gt; Würth  wereldwijd</a></li>
-            <li className={styles.li}><a className={styles.a} href="#"> &gt; Engagement</a></li>
-            <li className={styles.li}><a className={styles.a} href="#"> &gt;Kwaliteit</a></li>
-            <li className={styles.li}><a className={styles.a} href="#"> &gt; Persberichten</a></li>
-            <li className={styles.li}><a className={styles.a} href="#"> &gt; Sportsponsoring</a></li>
-            <li className={styles.li}><a className={styles.a} href="#"> &gt; Algemene voorwaarden</a></li>
-            <li className={styles.li}><a className={styles.a} href="#"> &gt; Code of compliance</a></li>
+            <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Missie, visie & waarden</a></li>
+            <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Würth  wereldwijd</a></li>
+            <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Engagement</a></li>
+            <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Kwaliteit</a></li>
+            <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Persberichten</a></li>
+            <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Sportsponsoring</a></li>
+            <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Algemene voorwaarden</a></li>
+            <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Code of compliance</a></li>
             </ul>
           </li>
           
-          <li className={styles.li}><a className={styles.a} href="#"> &gt; Vacatures</a></li>
+          <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Vacatures</a></li>
           
-          <li className={styles.li}><a className={styles.a} href="#"> &gt; Merken</a></li>
+          <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Merken</a></li>
           
-          <li className={styles.li}><a className={styles.a} href="#"> &gt; Social media</a></li>
+          <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Social media</a></li>
           
-          <li className={styles.li}><a className={styles.a} href="#"> &gt; Sign up for Würth news </a></li>
+          <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Sign up for Würth news </a></li>
           
-          <li className={styles.li}><a className={styles.a} href="#"> &gt; Veelgestelde vragen</a></li>
+          <li className={styles.li}><a className={styles.a} href="#"> `&gt;` Veelgestelde vragen</a></li>
           
         </ul>
       </nav>

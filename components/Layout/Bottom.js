@@ -13,8 +13,8 @@ function Bottom() {
     
 <div className={styles.boxContainer}>
    <div className={styles.box}>
-   <div class="row align-items-start" id={styles.row}>
-   <div class="col-sm-7 "><strong>WÜRTH ONLINE SHOP</strong><br></br>
+   <div className="row align-items-start" id={styles.row}>
+   <div className="col-sm-7 "><strong>WÜRTH ONLINE SHOP</strong><br></br>
             Wachtwoord vergeten?<br></br>
             Klant- en/of partnernummer vergeten?<br></br>
             Registreren bij Würth<br></br>
@@ -22,7 +22,7 @@ function Bottom() {
             Aanvragen login bestaande klant<br></br>
             Veelgestelde vragen
         </div>
-        <div class="col-sm-5 "><strong>WÜRTH</strong><br></br>
+        <div className="col-sm-5 "><strong>WÜRTH</strong><br></br>
             Download de Würth app<br></br>
             Raadpleeg onze catalogen<br></br>
             Bekijk al onze brochures<br></br>
@@ -34,8 +34,8 @@ function Bottom() {
         </div>
            </div>
        <div className={styles.box}>
-       <div class="row align-items-start" id={styles.row}>
-       <div class="col-sm-5 "><strong>SOCIAL</strong><br></br>
+       <div className="row align-items-start" id={styles.row}>
+       <div className="col-sm-5 "><strong>SOCIAL</strong><br></br>
             <FaLinkedin /> Linkedin<br></br>
             <AiFillFacebook /> Facebook<br></br>
             <AiFillYoutube /> Youtube<br></br>
@@ -43,7 +43,7 @@ function Bottom() {
 
 
          </div>
-        <div class="col-sm-5 "><strong>CONTACT</strong><br></br>
+        <div className="col-sm-5 "><strong>CONTACT</strong><br></br>
             Würth Belux nv<br></br>
 
             Everdongenlaan 29 (4253)<br></br>

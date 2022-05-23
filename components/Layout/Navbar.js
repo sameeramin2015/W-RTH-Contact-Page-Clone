@@ -1,4 +1,4 @@
-import React from 'react'
+
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from "../../styles/Navbar.module.css";
 import {BiUserCircle} from 'react-icons/bi';
@@ -7,7 +7,7 @@ import {BiUserCircle} from 'react-icons/bi';
 function Navbar() {
   return (
     <div className={styles.container}>
-      <ul class={styles.ulLeft}>
+      <ul className={styles.ulLeft}>
           <li className={styles.liclass}><a className={styles.links} href="#" >ONLINE SHOP</a></li>
           <li className={styles.liclass}><a className={styles.links} href="#" >SHOP</a></li>
           <li className={styles.liclass}><a className={styles.links} href="#" >BROCHURES</a></li>

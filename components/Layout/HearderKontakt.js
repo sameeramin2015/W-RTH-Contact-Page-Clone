@@ -9,7 +9,7 @@ function HearderKontakt() {
        <Image src="/images/header1920x524.jpg" width={1920} height={524} alt="contact image" />
     </div>
     <div className={styles.links}>
-     Startseite &gt; Kontakt
+     Startseite  `&gt;`Kontakt
     </div>
     <div className={styles.title}>
     IHR KONTAKT ZU WÜRTH
@@ -30,14 +30,14 @@ function HearderKontakt() {
       </div>
       <div className={styles.box}>
       <span className={styles.paraghraph}><span className={styles.red}>Produkt- und Anwendungsberatung<br></br></span>Sie haben spezifische Fragen zu unseren Produkten und deren Anwendung? Sie erreichen unsere Spezialisten der Produkt- und Anwendungsberatung unter +49 794015-2552.<br></br><br></br> Durch Eingabe der entsprechenden Durchwahl erreichen Sie direkt den richtigen Ansprechpartner in Ihrem gewünschten Beratungsbereich.<br></br><br></br>
-        <span className={styles.span}> &gt; 1 - Brandschutz und Haustechnik <br></br></span>
-        <span className={styles.span}> &gt; 2 - Bautechnik <br></br></span>
-        <span className={styles.span}> &gt; 3 - Fahrzeugtechnik, Werkstattsysteme, Handwerkzeuge <br></br></span>
-        <span className={styles.span}> &gt; 4 - Maschinen, Messtechnik, mechanische Materialbearbeitung <br></br></span>
-        <span className={styles.span}> &gt; 5 - Chemieprodukte<br></br></span>
-        <span className={styles.span}> &gt; 6 - Normteile <br></br> </span>
-        <span className={styles.span}> &gt; 7 - Arbeitsschutz<br></br></span>
-        <span className={styles.span}> &gt; 8 - Beschläge </span>
+        <span className={styles.span}> `&gt;` 1 - Brandschutz und Haustechnik <br></br></span>
+        <span className={styles.span}> `&gt;` 2 - Bautechnik <br></br></span>
+        <span className={styles.span}>  `&gt;`3 - Fahrzeugtechnik, Werkstattsysteme, Handwerkzeuge <br></br></span>
+        <span className={styles.span}>  `&gt;`4 - Maschinen, Messtechnik, mechanische Materialbearbeitung <br></br></span>
+        <span className={styles.span}>  `&gt;`5 - Chemieprodukte<br></br></span>
+        <span className={styles.span}>  `&gt;`6 - Normteile <br></br> </span>
+        <span className={styles.span}>  `&gt;`7 - Arbeitsschutz<br></br></span>
+        <span className={styles.span}>  `&gt;`8 - Beschläge </span>
 
       </span>
       </div>
@@ -66,7 +66,7 @@ function HearderKontakt() {
       </div>
       <div className={styles.box}>
       <span className={styles.paraghraph}><span className={styles.red}>Würth Niederlassungen<br></br></span>Nah. Näher. Würth! Mit über 550 Niederlassungen deutschlandweit ist Würth der Partner ganz in Ihrer Nähe. Sie finden in unseren Niederlassungen in der Regel rund 5.000 Artikel für Ihren Sofortbedarf.<br></br><br></br>Einkauf, Sofort-Lieferservice, Click & Collect - nutzen Sie die vielen Vorteile unseres dichten Niederlassungsnetzes. Besuchen Sie uns während unserer Geschäftszeiten von 7 - 17 Uhr und überzeugen Sie sich vor Ort von Qualität made by Würth.<br></br><br></br>
-      <button className={styles.button1}> &gt; HIER FINDEN SIE NACHSTE NIDERLASSUNG</button>
+      <button className={styles.button1}>  `&gt;`HIER FINDEN SIE NACHSTE NIDERLASSUNG</button>
       </span>
       </div>
     
@@ -78,23 +78,23 @@ function HearderKontakt() {
       </div>
       <div className={styles.box}>
       <span className={styles.paraghraph}><span className={styles.red}>Firmenzentrale<br></br></span><br></br>
-    <div class="row align-items-start" id={styles.row}>
-      <div class="col-sm-6 "><strong>Adressdaten:</strong><br></br>
+    <div className="row align-items-start" id={styles.row}>
+      <div className="col-sm-6 "><strong>Adressdaten:</strong><br></br>
         Adolf Würth GmbH & Co. KG<br></br>
         Reinhold-Würth-Straße 12-17<br></br>
         74653 Künzelsau-Gaisbach<br></br>
         Deutschland<br></br>
       </div>
 
-      <div class="col-sm-6 "><strong>Direkter Kontakt:</strong><br></br>
+      <div className="col-sm-6 "><strong>Direkter Kontakt:</strong><br></br>
         Telefon: +49 7940 15-0<br></br>
         Telefax: +49 7940 15-1000<br></br>
         E-Mail: info@wuerth.com<br></br>
         </div>
       </div>
     
-    <button className={styles.button1}> &gt; Anfahrtsweg zur Adolf Würth GmbH &amp; Co. KG</button><br></br>
-    <button className={styles.button1}> &gt; Detailskizze für Besucher der Adolf Würth GmbH &amp; Co. KG</button>
+    <button className={styles.button1}>  `&gt;`Anfahrtsweg zur Adolf Würth GmbH &amp; Co. KG</button><br></br>
+    <button className={styles.button1}>  `&gt;`Detailskizze für Besucher der Adolf Würth GmbH &amp; Co. KG</button>
     </span>
     
       </div>
@@ -138,22 +138,22 @@ function HearderKontakt() {
       </div>
     </div>
     <div className={styles.cards}>
-          <div class="card m-2" >
-            <img class="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card m-2" >
+            <img className="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card m-2" >
-            <img class="card-img-top" src="/images/card2.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card m-2" >
+            <img className="card-img-top" src="/images/card2.jpg" alt="Card image cap" />
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
-          <div class="card m-2" >
-            <img class="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <div className="card m-2" >
+            <img className="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
+            <div className="card-body">
+              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             </div>
           </div>
       

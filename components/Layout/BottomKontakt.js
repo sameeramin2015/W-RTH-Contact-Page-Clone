@@ -18,8 +18,8 @@ function BottomKontakt() {
          </div>
     <div className={styles.boxContainer}>
         <div className={styles.box}>
-        <div class="row align-items-start" id={styles.row}>
-            <div class="col-sm-6 "><strong>Entdecken</strong><br></br>
+        <div className="row align-items-start" id={styles.row}>
+            <div className="col-sm-6 "><strong>Entdecken</strong><br></br>
                 Newsletter<br></br>
                 Online-Magazin<br></br>
                 Karriereportal<br></br>
@@ -27,7 +27,7 @@ function BottomKontakt() {
                 Kulturelles und soziales Engagement<br></br>
                 Reinhold Würth
             </div>
-            <div class="col-sm-4 "><strong>Einkaufen</strong><br></br>
+            <div className="col-sm-4 "><strong>Einkaufen</strong><br></br>
                 App für iOS/Android<br></br>
                 Zahlungsarten<br></br>
                 Liefern und Abholen<br></br>
@@ -38,8 +38,8 @@ function BottomKontakt() {
            </div>
                 </div>
             <div className={styles.box}>
-            <div class="row align-items-start" id={styles.row}>
-                <div class="col-sm-5 "><strong>Folgen</strong><br></br>
+            <div className="row align-items-start" id={styles.row}>
+                <div className="col-sm-5 "><strong>Folgen</strong><br></br>
                     <AiFillFacebook /> Facebook<br></br>
                     <AiFillInstagram /> Instagram<br></br>
                     <AiFillYoutube /> Youtube<br></br>
@@ -48,7 +48,7 @@ function BottomKontakt() {
                     <IoLogoXing /> Xing  
                              
                 </div>
-          <div class="col-sm-5 "><strong>Kontaktieren</strong><br></br>
+          <div className="col-sm-5 "><strong>Kontaktieren</strong><br></br>
                 Adolf Würth GmbH & Co. KG<br></br>
                 Reinhold-Würth-Straße 12-17<br></br>
                 74653 Künzelsau-Gaisbach<br></br>
