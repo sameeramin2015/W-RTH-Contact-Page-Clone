@@ -140,21 +140,21 @@ function HearderKontakt() {
     </div>
     <div className={styles.cards}>
           <div className="card m-2" >
-            <img className="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
+            <Image className="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
             <div className="card-body">
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</span>
             </div>
           </div>
           <div className="card m-2" >
-            <img className="card-img-top" src="/images/card2.jpg" alt="Card image cap" />
+            <Image className="card-img-top" src="/images/card2.jpg" alt="Card image cap" />
             <div className="card-body">
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</span>
             </div>
           </div>
           <div className="card m-2" >
-            <img className="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
+            <Image className="card-img-top" src="/images/card1.jpg" alt="Card image cap" />
             <div className="card-body">
-              <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <span className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</span>
             </div>
           </div>
       
